@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "stdio.h": "c",
+        "type_traits": "c",
+        "CQ2.C": "cpp",
+        "Q.C": "cpp",
+        "PQ.C": "cpp"
+    }
+}
