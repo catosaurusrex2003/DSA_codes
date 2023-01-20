@@ -1,4 +1,4 @@
-// STAACK USING LINKED LIST
+// STACK USING LINKED LIST
 // THERE IS NO FIXED SIZE OF STACK
 // BUT U WILL HAVE TO SET A CUSTOM SIZE
 
@@ -42,7 +42,7 @@ struct Node * push(struct Node * ptr , int data){
     else{
         struct Node * n = (struct Node *)malloc(sizeof(struct Node));
         n->data = data;
-        n-> next = ptr;
+        n->next = ptr;
         ptr = n;
         return ptr;
     }
